@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HafizaOyunu">
+
+    <include layout="@layout/actionbar"
+        android:id="@+id/hafizaOyunuActionBar"/>
+
+
+    <GridView
+        android:layout_below="@+id/tekrar_btn"
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:padding="5dp">
+    </GridView>
+
+    <Button
+        android:id="@+id/tekrar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hafizaOyunuActionBar"
+        android:layout_marginTop="5dp"
+        android:text="Yeniden Başla"
+        android:layout_centerInParent="true"
+        android:visibility="visible"/>
+
+</RelativeLayout>

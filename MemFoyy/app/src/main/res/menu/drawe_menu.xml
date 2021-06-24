@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sayiGame"
+            android:icon="@drawable/me"
+            android:title="Sayı Hafızası Oyunu" />
+        <item
+            android:id="@+id/tekrarGame"
+            android:icon="@drawable/me"
+            android:title="Sayı Tekrarı Oyunu" />
+        <item
+            android:id="@+id/hafizaGame"
+            android:icon="@drawable/me"
+            android:title="Resimli Hafıza Oyunu" />
+<!--        <item-->
+<!--            android:id="@+id/notlar"-->
+<!--            android:icon="@drawable/me"-->
+<!--            android:title="Notlarım" />-->
+    </group>
+
+    <item android:title="Bilgi Ekleme Sayfaları">
+        <menu>
+            <item
+                android:id="@+id/kisisel_ekle"
+                android:icon="@drawable/me"
+                android:title="Şahsi Bilgiler" />
+            <item
+                android:id="@+id/d_kisi_ekle"
+                android:icon="@drawable/me"
+                android:title="Kişiler" />
+            <item
+                android:id="@+id/d_ani_ekle"
+                android:icon="@drawable/me"
+                android:title="Anılar" />
+            <item
+                android:id="@+id/d_not_ekle"
+                android:icon="@drawable/me"
+                android:title="Notlar" />
+        </menu>
+
+
+    </item>
+
+    <item android:title="Daha Fazla">
+        <menu>
+            <item
+                android:id="@+id/hakkinda"
+                android:icon="@drawable/me"
+                android:title="Hakkında" />
+            <item
+                android:id="@+id/cikis"
+                android:icon="@drawable/me"
+                android:title="Çıkış" />
+
+        </menu>
+
+
+    </item>
+
+</menu>
